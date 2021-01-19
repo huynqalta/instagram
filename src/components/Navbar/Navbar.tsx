@@ -10,10 +10,10 @@ import { MdHome } from "react-icons/md"
 import Model from './model/Model'
 
 const Navbar = () => {
-    const [ visible, setVisible ] = useState(true);
+    const [ visible, setVisible ] = useState(false);
 
     const onpenForm = () => {
-
+        setVisible(true)
     }
     return (
         <div className="navbar">
@@ -42,10 +42,14 @@ const Navbar = () => {
                 <li>
                     <FaRegHeart className="navbar__icons" />
                 </li>
-                <li onClick={onpenForm}>Register/Login</li>
+                {
+                    false ? <div className="header-avatar">
+                        <img src="https://i.pinimg.com/236x/59/ff/51/59ff51e62283d9e7b6429b451d48c85a.jpg" /></div> : <li onClick={onpenForm}>Register/Login</li>
+                }
+
             </div>
             {
-                visible && <Model />
+                visible && <Model visible={visible} setVisible={setVisible} />
             }
 
         </div>
