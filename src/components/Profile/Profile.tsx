@@ -78,22 +78,13 @@ const Profile = () => {
                     <nav>
                         <ul className="tabbed-pane__header">
                             <li>
-                                <a href="" className="tab-link selected"
-                                ><i className="fa fa-table" aria-hidden="true"></i
-                                ><span className="tab-link-text"> Posts</span></a
-                                >
+                                <a href="" className="tab-link selected"><i className="fa fa-table" aria-hidden="true"></i><span className="tab-link-text"> Posts</span></a>
                             </li>
                             <li>
-                                <a href="" className="tab-link"
-                                ><i className="fa fa-television" aria-hidden="true"></i
-                                ><span className="tab-link-text"> IGTV</span></a
-                                >
+                                <a href="" className="tab-link"><i className="fa fa-television" aria-hidden="true"></i><span className="tab-link-text"> IGTV</span></a>
                             </li>
                             <li>
-                                <a href="" className="tab-link"
-                                ><i className="fa fa-user" aria-hidden="true"></i
-                                ><span className="tab-link-text"> Tagged</span></a
-                                >
+                                <a href="" className="tab-link"><i className="fa fa-user" aria-hidden="true"></i><span className="tab-link-text"> Tagged</span></a>
                             </li>
                         </ul>
                     </nav>
