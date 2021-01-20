@@ -18,12 +18,8 @@ const Profile = () => {
                     </div>
                     <div className="bio__stats">
                         <span className="bio__posts stats"><strong>5,097</strong> posts</span>
-                        <span className="bio_followers stats"
-                        ><strong>165m</strong> followers</span
-                        >
-                        <span className="bio__following stats"
-                        ><strong>37</strong> following</span
-                        >
+                        <span className="bio_followers stats"><strong>165m</strong> followers</span>
+                        <span className="bio__following stats"><strong>37</strong> following</span>
                     </div>
                     <div className="bio_blurb">
                         <h2 className="bio__name">Kim Kardashian West</h2>
